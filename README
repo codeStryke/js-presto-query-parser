@@ -1,0 +1,1 @@
+A package to parse Presto SQL queries in the browser. This can be useful in building online editors for Presto.

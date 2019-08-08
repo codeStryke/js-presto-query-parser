@@ -1,0 +1,14 @@
+{
+  "name": "query-parser",
+  "version": "0.1.0",
+  "description": "JS query parser for Presto SQL syntax",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "antlr -Dlanguage=JavaScript grammars/SqlBase.g4 -o lib -Xexact-output-dir"
+  },
+  "dependencies": {
+    "antlr4": "^4.7.2"
+  }
+}
